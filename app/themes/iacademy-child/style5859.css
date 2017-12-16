@@ -1,0 +1,120 @@
+/*
+Theme Name: iAcademy Child
+Theme URI: http://iacademy.mikado-themes.com
+Description: A child theme of iAcademy Theme
+Author: Mikado Themes
+Author URI: http://themeforest.net/user/mikado-themes
+Version: 1.0.0
+Text Domain: iacademy
+Template: iacademy
+*/
+
+/* Custom Font */
+
+@font-face {
+	font-family: 'Jaapokki';
+	src: url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/jaapokki-regular.eot');
+	src: url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/jaapokki-regular.eot?#iefix') format('embedded-opentype'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/jaapokki-regular.woff2') format('woff2'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/jaapokki-regular.woff') format('woff'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/jaapokki-regular.ttf') format('truetype'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/jaapokki-regular.svg#jaapokki-regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Charter';
+	src: url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/charter-regular.eot');
+	src: url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/charter-regular.eot?#iefix') format('embedded-opentype'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/charter-regular.woff2') format('woff2'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/charter-regular.woff') format('woff'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/charter-regular.ttf') format('truetype'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/charter-regular.svg#charter-regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Charter';
+	src: url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/charter-bold-italic.eot');
+	src: url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/charter-bold-italic.eot?#iefix') format('embedded-opentype'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/charter-bold-italic.woff2') format('woff2'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/charter-bold-italic.woff') format('woff'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/charter-bold-italic.ttf') format('truetype'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/charter-bold-italic.svg#charter-bold-italic') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Charter';
+	src: url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/charter-italic.eot');
+	src: url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/charter-italic.eot?#iefix') format('embedded-opentype'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/charter-italic.woff2') format('woff2'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/charter-italic.woff') format('woff'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/charter-italic.ttf') format('truetype'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/charter-italic.svg#charter-italic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Charter';
+	src: url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/charter-bold.eot');
+	src: url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/charter-bold.eot?#iefix') format('embedded-opentype'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/charter-bold.woff2') format('woff2'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/charter-bold.woff') format('woff'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/charter-bold.ttf') format('truetype'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/charter-bold.svg#charter-bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Avenir';
+	src: url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/avenir-bold-italic.eot');
+	src: url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/avenir-bold-italic.eot?#iefix') format('embedded-opentype'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/avenir-bold-italic.woff2') format('woff2'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/avenir-bold-italic.woff') format('woff'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/avenir-bold-italic.ttf') format('truetype'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/avenir-bold-italic.svg#avenir-bold-italic') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Avenir';
+	src: url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/avenir-italic.eot');
+	src: url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/avenir-italic.eot?#iefix') format('embedded-opentype'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/avenir-italic.woff2') format('woff2'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/avenir-italic.woff') format('woff'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/avenir-italic.ttf') format('truetype'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/avenir-italic.svg#avenir-italic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Avenir';
+	src: url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/avenir-bold.eot');
+	src: url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/avenir-bold.eot?#iefix') format('embedded-opentype'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/avenir-bold.woff2') format('woff2'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/avenir-bold.woff') format('woff'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/avenir-bold.ttf') format('truetype'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/avenir-bold.svg#avenir-bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Avenir';
+	src: url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/avenir-regular.eot');
+	src: url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/avenir-regular.eot?#iefix') format('embedded-opentype'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/avenir-regular.woff2') format('woff2'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/avenir-regular.woff') format('woff'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/avenir-regular.ttf') format('truetype'),
+		url('https://www.digi-activity.com/app/themes/iacademy-child/fonts/avenir-regular.svg#avenir-regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
